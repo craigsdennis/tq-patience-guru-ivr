@@ -46,7 +46,7 @@ exports.handler = async function(context, event, callback) {
             twiml.say(
                 'Welcome to Patience Guru Training. Press 1 to practice patience.'
             );
-        }
+    }
     twiml.gather({ numDigits: 1 });
     callback(null, twiml);
 };

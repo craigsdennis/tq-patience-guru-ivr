@@ -6,6 +6,3 @@ exports.handler = async function(context, event, callback) {
     twiml.record();
     callback(null, twiml);
 };
-
-
-
